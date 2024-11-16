@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #282c34;
+  padding: 10px 80px;
+  color: white;
+}
+
+.navbar-icon {
+  margin: 15px;
+  width: 80px;
+  height: 70px;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+
+.navbar-title {
+  font-size: 24px;
+  font-weight: bold;
+  flex: 1;  
+  text-align: center; 
+}
+
+.chatbot-container {
+  padding: 20px;
+  text-align: center;
+}

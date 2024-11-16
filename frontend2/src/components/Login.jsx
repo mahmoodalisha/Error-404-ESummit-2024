@@ -27,13 +27,16 @@ const Login = () => {
                 try {
                   const response = await axios.post("http://localhost:5000/api/users/login", values);
                   if (response.status === 200) {
+                    // Store token and user ID in local storage
                     localStorage.setItem("token", response.data.token);
                     localStorage.setItem("userId", response.data.userId);
-                    console.log("JWT Token:", response.data.token);
-                    navigate("/home");
+
+                    // Redirect to the ChatBot component
+                    navigate("/");
                   }
                 } catch (error) {
                   console.error("Login failed:", error);
+                  alert("Login failed. Please check your credentials.");
                 }
               }}
             >
