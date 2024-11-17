@@ -83,8 +83,8 @@ Retrieves relevant legal articles and explanations.
 Simplifies responses using Google Generative AI.
 API Endpoints
 Endpoint	Method	Description
-/query	POST	Accepts user queries and returns insights.
-/upload	POST	Allows admins to upload new legal data.
+/ask	POST	Accepts user queries and returns insights.
+
 Usage Scenarios
 
 Citizens:
