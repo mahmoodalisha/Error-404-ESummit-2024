@@ -32,9 +32,10 @@ re	Performs text pattern matching during preprocessing.
 FastAPI	Serves machine learning models through APIs.
 React.js	Provides a user-friendly and dynamic frontend.
 MongoDB	Stores user interactions and feedback data.
-Repository Structure
+Repository Structure 
+
 main branch: Contains the frontend code built with the MERN stack.
-ml-model branch: Contains the machine learning model code, including AI-powered search and NLP functionalities.
+ml-model branch: Contains the machine learning model code.
 Installation
 Prerequisites
 Python 3.8+
@@ -81,6 +82,7 @@ Queries the FastAPI backend for relevant legal information.
 Response Generation
 Retrieves relevant legal articles and explanations.
 Simplifies responses using Google Generative AI.
+Used Docker for Containerization
 
 API Endpoints
 POST /ask 
