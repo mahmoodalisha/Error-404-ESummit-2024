@@ -81,9 +81,10 @@ Queries the FastAPI backend for relevant legal information.
 Response Generation
 Retrieves relevant legal articles and explanations.
 Simplifies responses using Google Generative AI.
+
 API Endpoints
-Endpoint	Method	Description
-/ask	POST	Accepts user queries and returns insights.
+POST /ask 
+Accepts user queries and returns insights.
 
 Usage Scenarios
 
